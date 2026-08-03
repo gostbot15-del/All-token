@@ -134,7 +134,7 @@ def get_jwt_token(open_id, access_token):
         game_data.timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         game_data.game_name = "free fire"
         game_data.game_version = 1
-        game_data.version_code = "1.108.3"
+        game_data.version_code = "1.128.17"
         game_data.os_info = "Android OS 9 / API-28 (PI/rel.cjw.20220518.114133)"
         game_data.device_type = "Handheld"
         game_data.network_provider = "Verizon Wireless"
@@ -196,7 +196,7 @@ def get_jwt_token(open_id, access_token):
             'Expect': "100-continue",
             'X-Unity-Version': "2018.4.11f1",
             'X-GA': "v1 1",
-            'ReleaseVersion': "OB53"
+            'ReleaseVersion': "OB54"
         }
 
         # Vercel-এর 10 সেকেন্ড টাইমআউটের জন্য 8 সেকেন্ড সেট
